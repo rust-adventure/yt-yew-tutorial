@@ -3,6 +3,16 @@
 version = 3
 
 [[package]]
+name = "app"
+version = "0.1.0"
+dependencies = [
+ "gloo-net",
+ "serde",
+ "wasm-bindgen-futures",
+ "yew",
+]
+
+[[package]]
 name = "autocfg"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -504,14 +514,4 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "yt-yew-app-tutorial"
-version = "0.1.0"
-dependencies = [
- "gloo-net",
- "serde",
- "wasm-bindgen-futures",
- "yew",
 ]
